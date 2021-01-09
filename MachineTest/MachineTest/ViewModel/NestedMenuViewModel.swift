@@ -17,7 +17,7 @@ class NestedMenuViewModel {
     var arrNestedMenu = [NestedMenuCellViewModel]()
     var lastExpandedHierarchyPos = -1
     
-    //MARK:- API call -
+    //MARK:- API call
     func ferchRemoteData(completion: @escaping() -> Void)  {
         Loader.shared.showLoader()
         NetworkRequestManager.shared.requestWithGet(endPoint: "",query: "", request: UnknownRequest(), header: NetworkHeaders(), response: NestedMenu.self) { (response,message,isNewToken) in

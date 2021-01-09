@@ -19,7 +19,6 @@
 		12BA5D6D25A88E640090AB24 /* NestedMenuViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BA5D6C25A88E640090AB24 /* NestedMenuViewModel.swift */; };
 		12BA5D7825A88FDA0090AB24 /* NestedMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BA5D7725A88FDA0090AB24 /* NestedMenu.swift */; };
 		12BA5DDD25A89C220090AB24 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BA5DDC25A89C220090AB24 /* Extensions.swift */; };
-		12BA5E0A25A998B10090AB24 /* NestedMenuViewModel copy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BA5E0925A998B10090AB24 /* NestedMenuViewModel copy.swift */; };
 		12BA5E1725A9A10D0090AB24 /* NetworkRequest+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BA5E1625A9A10C0090AB24 /* NetworkRequest+extension.swift */; };
 		12BA5E1D25A9A11E0090AB24 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BA5E1B25A9A11E0090AB24 /* NetworkManager.swift */; };
 		12BA5E1E25A9A11E0090AB24 /* NetworkRequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BA5E1C25A9A11E0090AB24 /* NetworkRequestManager.swift */; };
@@ -65,7 +64,6 @@
 		12BA5D6C25A88E640090AB24 /* NestedMenuViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NestedMenuViewModel.swift; sourceTree = "<group>"; };
 		12BA5D7725A88FDA0090AB24 /* NestedMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NestedMenu.swift; sourceTree = "<group>"; };
 		12BA5DDC25A89C220090AB24 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
-		12BA5E0925A998B10090AB24 /* NestedMenuViewModel copy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NestedMenuViewModel copy.swift"; sourceTree = "<group>"; };
 		12BA5E1625A9A10C0090AB24 /* NetworkRequest+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NetworkRequest+extension.swift"; sourceTree = "<group>"; };
 		12BA5E1B25A9A11E0090AB24 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		12BA5E1C25A9A11E0090AB24 /* NetworkRequestManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkRequestManager.swift; sourceTree = "<group>"; };
@@ -160,7 +158,6 @@
 			isa = PBXGroup;
 			children = (
 				12BA5D6C25A88E640090AB24 /* NestedMenuViewModel.swift */,
-				12BA5E0925A998B10090AB24 /* NestedMenuViewModel copy.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -396,7 +393,6 @@
 				12BA5E1E25A9A11E0090AB24 /* NetworkRequestManager.swift in Sources */,
 				12BA5E2C25A9A3810090AB24 /* Constants.swift in Sources */,
 				12BA5E1D25A9A11E0090AB24 /* NetworkManager.swift in Sources */,
-				12BA5E0A25A998B10090AB24 /* NestedMenuViewModel copy.swift in Sources */,
 				12BA5DDD25A89C220090AB24 /* Extensions.swift in Sources */,
 				12BA5D6D25A88E640090AB24 /* NestedMenuViewModel.swift in Sources */,
 				12BA5D3825A88C5F0090AB24 /* MachineTest.xcdatamodeld in Sources */,
