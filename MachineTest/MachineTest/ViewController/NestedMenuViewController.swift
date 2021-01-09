@@ -10,18 +10,19 @@ import UIKit
 class NestedMenuViewController: UIViewController {
     
     @IBOutlet weak var tableviewNestedMenu: UITableView!
-    var viewModel = NestedMenuViewModel()
+    let viewModel = NestedMenuViewModel()
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.viewModel.ferchRemoteData {
+        self.viewModel.fetchRemoteData {
             self.tableviewNestedMenu.reloadData()
         }
     }
 }
 
+//MARK:- Tableview data source
 extension NestedMenuViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         if self.viewModel.count() > 0 {
@@ -54,6 +55,7 @@ extension NestedMenuViewController: UITableViewDataSource {
     }
 }
 
+//MARK:- Tableview Delegate
 extension NestedMenuViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         self.viewModel.toggleMenu(indexPath: indexPath)
@@ -61,6 +63,8 @@ extension NestedMenuViewController: UITableViewDelegate {
     }
 }
 
+
+//MARK:- UItableview cell
 class NestedMenuCell: UITableViewCell {
     @IBOutlet weak var seperatorView: UIView!
     
@@ -75,7 +79,7 @@ class NestedMenuCell: UITableViewCell {
     var leadingSpaceConstant: CGFloat = 30
     var menuObj: NestedMenuCellViewModel! {
         didSet {
-           // print("isChildmenuObj",menuObj.isChild)
+            // print("isChildmenuObj",menuObj.isChild)
             titleLabel.text = menuObj.name
             switch menuObj.hierarchyPosition {
             case 0:
@@ -109,7 +113,7 @@ class NestedMenuCell: UITableViewCell {
             default:
                 seperatorView.isHidden = true
                 viewCircle.isHidden = true
-                leadingConstraintCircle.constant =  leadingSpaceConstant + 70
+                leadingConstraintCircle.constant =  leadingSpaceConstant + 80
                 titleLabel.font = UIFont(name: "HelveticaNeue", size: topHierarchyFontSize - 6)
                 titleLabel.alpha = 0.6
             }

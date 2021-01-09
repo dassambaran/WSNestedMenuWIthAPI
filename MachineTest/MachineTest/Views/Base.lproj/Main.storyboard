@@ -46,7 +46,7 @@
                                                     <rect key="frame" x="0.0" y="0.0" width="414" height="70"/>
                                                     <subviews>
                                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6my-x5-Z0z">
-                                                            <rect key="frame" x="30" y="29" width="12" height="12"/>
+                                                            <rect key="frame" x="30" y="27" width="12" height="12"/>
                                                             <color key="backgroundColor" systemColor="systemOrangeColor"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="width" constant="12" id="PiB-16-ro8"/>
@@ -70,6 +70,7 @@
                                                     </subviews>
                                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <constraints>
+                                                        <constraint firstItem="6my-x5-Z0z" firstAttribute="centerY" secondItem="EbM-2a-yxQ" secondAttribute="centerY" id="GeK-sa-CJm"/>
                                                         <constraint firstAttribute="trailing" secondItem="qrt-X0-3be" secondAttribute="trailing" constant="20" id="MSO-3X-dXc"/>
                                                         <constraint firstItem="6my-x5-Z0z" firstAttribute="leading" secondItem="kYJ-HV-kxr" secondAttribute="leading" constant="30" id="PQH-nk-ZP4"/>
                                                         <constraint firstItem="EbM-2a-yxQ" firstAttribute="leading" secondItem="6my-x5-Z0z" secondAttribute="trailing" constant="8" id="RvK-u6-KRL"/>
@@ -77,7 +78,6 @@
                                                         <constraint firstAttribute="trailing" secondItem="EbM-2a-yxQ" secondAttribute="trailing" constant="30" id="WU4-k5-mvH"/>
                                                         <constraint firstAttribute="bottom" secondItem="qrt-X0-3be" secondAttribute="bottom" constant="5" id="j8z-Xl-P4i"/>
                                                         <constraint firstItem="qrt-X0-3be" firstAttribute="top" secondItem="EbM-2a-yxQ" secondAttribute="bottom" constant="5" id="oQV-ri-nII"/>
-                                                        <constraint firstItem="6my-x5-Z0z" firstAttribute="centerY" secondItem="kYJ-HV-kxr" secondAttribute="centerY" id="sTk-x4-QWD"/>
                                                         <constraint firstItem="qrt-X0-3be" firstAttribute="leading" secondItem="kYJ-HV-kxr" secondAttribute="leading" constant="20" id="uCp-cf-BwL"/>
                                                         <constraint firstItem="EbM-2a-yxQ" firstAttribute="top" secondItem="kYJ-HV-kxr" secondAttribute="top" constant="8" id="xWa-ld-cxC"/>
                                                     </constraints>
